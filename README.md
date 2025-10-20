@@ -1,27 +1,17 @@
 # Lunar & Planetary Phase Simulator
 
-A zero-dependency, single-page web app to visualize lunar and exoplanet illumination phases and reflected-light phase curves.
+A lightweight, browser-based tool for visualizing lunar and planetary illumination phases and reflected-light phase curves.  
+Built as a single-page application with zero external dependencies.
 
 ## Features
-- Real-time disk renderer with Lambertian phase.
-- **Moon mode** with date-linked phase and **bright-limb position angle** (PA) via RA/Dec.
-- **Exoplanet mode** with inclination, eccentricity, argument of periastron, albedo, and (R_p/a); live **phase-curve**.
-- Named **exoplanet presets** with metadata (HD 209458 b, Kepler-10 b, 51 Peg b, WASP-12 b, GJ 1214 b, TOI-700 d, LHS 1140 b, K2-18 b).
-- PNG snapshot and CSV export.
-- Built-in **self-tests** (see badge and browser console).
 
-## How to run locally
-Just open `index.html` in any modern browser.
+- **Interactive Disk Renderer** — Real-time visualization of illumination phase using Lambertian reflection.
+- **Lunar Mode** — Date-linked synodic phase calculation with bright-limb position angle (PA) derived from approximate RA/Dec.
+- **Planetary & Exoplanet Modes** — Adjustable inclination, eccentricity, argument of periastron, albedo, and radius-to-orbit ratio \((R_p/a)\).
+- **Live Phase Curve** — Displays normalized reflected flux vs phase angle.
+- **Exoplanet Presets** — Includes well-known systems like HD 209458 b, 51 Peg b, Kepler-10 b, WASP-12 b, and others.
+- **Exports** — Save rendered disks as PNG and export simulated phase curves as CSV.
+- **Self-Tests** — Automatic checks for key equations (see console).
 
-## Deploy to GitHub Pages
-1. Public repo, e.g. `lunar-planetary-phase-simulator`.
-2. Added these files at the repo root: `index.html`, `README.md`, `LICENSE`, `.nojekyll`.
-3. Push to `main`.
-5. The site is live at `https:jiqbal1921.github.io/<repo-name>/`.
-
-## Notes
-- This app uses simple approximations (Meeus-style low-order series) for speed. Great for teaching; not a replacement for a full ephemeris.
-- Orientation PA is measured from celestial north toward east (approx on-sky convention).
-
-## License
-MIT. See `LICENSE`.
+### Run Locally
+Just open `index.html` in any modern web browser — no installation or internet connection required.
