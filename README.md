@@ -12,5 +12,8 @@ Built as a single-page application with zero external dependencies.
 - **Exoplanet Presets**  Includes well-known systems like HD 209458 b, 51 Peg b, Kepler-10 b, WASP-12 b, and others.
 - **Exports**  Save rendered disks as PNG and export simulated phase curves as CSV.
 
+ ## Live at 
+  https://jiqbal1921.github.io/lunar-planetary-phase-simulator/
+
 ### Run Locally
 Just open `index.html` in any modern web browser — no installation or internet connection required.
