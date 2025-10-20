@@ -11,7 +11,6 @@ Built as a single-page application with zero external dependencies.
 - **Live Phase Curve** — Displays normalized reflected flux vs phase angle.
 - **Exoplanet Presets** — Includes well-known systems like HD 209458 b, 51 Peg b, Kepler-10 b, WASP-12 b, and others.
 - **Exports** — Save rendered disks as PNG and export simulated phase curves as CSV.
-- **Self-Tests** — Automatic checks for key equations (see console).
 
 ### Run Locally
 Just open `index.html` in any modern web browser — no installation or internet connection required.
