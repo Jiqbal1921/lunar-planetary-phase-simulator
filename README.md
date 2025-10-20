@@ -14,11 +14,10 @@ A zero-dependency, single-page web app to visualize lunar and exoplanet illumina
 Just open `index.html` in any modern browser.
 
 ## Deploy to GitHub Pages
-1. Create a new public repo, e.g. `lunar-planetary-phase-simulator`.
-2. Add these files at the repo root: `index.html`, `README.md`, `LICENSE`, `.nojekyll`.
+1. Public repo, e.g. `lunar-planetary-phase-simulator`.
+2. Added these files at the repo root: `index.html`, `README.md`, `LICENSE`, `.nojekyll`.
 3. Push to `main`.
-4. In **Settings → Pages**, set **Source** to `Deploy from a branch` and choose `main` / root.
-5. Wait a minute; the site will be live at `https://<your-username>.github.io/<repo-name>/`.
+5. The site is live at `https:jiqbal1921.github.io/<repo-name>/`.
 
 ## Notes
 - This app uses simple approximations (Meeus-style low-order series) for speed. Great for teaching; not a replacement for a full ephemeris.
