@@ -12,8 +12,25 @@
     .panel{background:var(--panel); padding:16px; overflow:auto; box-shadow:0 0 0 1px rgba(255,255,255,.06) inset}
     h1{font-size:20px; margin:0 0 12px}
     h2{font-size:14px; margin:18px 0 6px; color:var(--muted); letter-spacing:.02em; font-weight:600; text-transform:uppercase}
-    label{display:flex; align-items:center; justify-content:space-between; gap:10px; margin:8px 0; font-size:14px}
-    input[type="range"]{width:170px; accent-color:var(--accent)}    
+    /* Improved alignment for labels + sliders */
+label{
+  display: grid;
+  grid-template-columns: 1fr 190px;  /* text | slider */
+  align-items: center;
+  column-gap: 12px;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+input[type="range"]{
+  width: 100%;
+  accent-color: var(--accent);
+}
+
+/* Optional: slightly wider layout on large screens */
+@media (min-width: 700px){
+  label{ grid-template-columns: 1fr 220px; }
+}    
     select, input[type="number"], input[type="datetime-local"], button{background:#0f1530; color:var(--ink); border:1px solid #243158; border-radius:8px; padding:6px 10px}
     button{cursor:pointer}
     .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; height:calc(100vh - 16px)}
