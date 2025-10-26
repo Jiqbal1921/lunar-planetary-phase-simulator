@@ -13,7 +13,7 @@ Built as a single-page application with zero external dependencies.
 - **Exports**  Save rendered disks as PNG and export simulated phase curves as CSV.
 
  ## Live at 
-  https://jiqbal1921.github.io/lunar-planetary-phase-simulator/
+  https://jiqbal-astro.github.io/lunar-planetary-phase-simulator/
 
 ### Run Locally
 Just open `index.html` in any modern web browser — no installation or internet connection required.
